@@ -1,11 +1,14 @@
-		var str="avadhut";
-		var first = str.charAt(0);
-		var last=str.charAt(str.length-1);
+function Person(name,age,rollno,section)
+	{
+		this.name=name;
+		this.age=age;
+		this.rollno=rollno;
+		this.section=section;
+	}
+	var avadhut=new Person("Avadhut",22,1,"IT");
+	var mangesh=new Person("Mangesh",23,2,"IT");
 
-		var firstcap=first.toUpperCase();
-		var lastcap=last.toUpperCase();
-
-		document.getElementById("data").innerHTML =
-		"<h3>Lowercase latter:</h3>"+str+
-		"<br>"+"<h3>first letter:</h3>"+first+"<h3>last letter:</h3>"+last+
-		"<br>"+"<h3>uppercase letter:</h3>"+firstcap+" "+"<h3>Lowercase letter:</h3>"+lastcap;
+	document.getElementById("data1").innerHTML=
+		"Name:"+avadhut.name + " " + "Age:"+avadhut.age +" "+"Rollno:"+avadhut.rollno+ " " +"Section:"+ avadhut.section;
+	document.getElementById("data2").innerHTML=
+		"Name:"+mangesh.name + " " +"Age:"+mangesh.age +" "+"Rollno:"+mangesh.rollno+ " " +"Section:"+mangesh.section;
