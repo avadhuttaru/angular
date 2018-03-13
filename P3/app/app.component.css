@@ -1,0 +1,28 @@
+#main
+{
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    margin: 8% auto;
+}
+#userinput
+{
+    text-align: center;
+    display: block;
+    margin: 5% auto;
+}
+#useroutput
+{
+    
+}
+.close
+{
+    float: right;
+    color: red;
+    font-size:24px;
+}
+.textboxhold
+{
+    padding: 12px;
+    border: 1px dotted black;
+}
