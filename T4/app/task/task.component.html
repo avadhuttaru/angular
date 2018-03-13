@@ -1,0 +1,23 @@
+<div>
+  <div>
+    <h3>Interpolation</h3>
+    <h4>Name:{{name}}</h4>
+  </div>
+
+  <div>
+      <br><br>
+    <hr>
+    <h3>Property Binding</h3>
+    <button type="button" [disabled]="displaystatus">Toggle</button>
+    <button type="button" (click)="toggle()">Click Me!</button>
+    
+  </div>
+
+  <div>
+      <br><br>
+    <hr>
+    <h3>Two way Binding</h3>
+    <input type="text" [(ngModel)]="inputdata">
+    <h4>{{inputdata}}</h4>
+  </div>
+</div>
